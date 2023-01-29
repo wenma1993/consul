@@ -1,0 +1,21 @@
+{
+    "name": "wenwen1993/consul",
+    "description": "php版本consul服务注册",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wen ma",
+            "email": "wma@rxhui.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "guzzlehttp/guzzle": "^7.5",
+        "psr/http-message": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wenwen1993\\Consul\\": "src/"
+        }
+    }
+}
